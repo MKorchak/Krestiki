@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E1702F51D95501900343CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1702F41D95501900343CE8 /* AppDelegate.swift */; };
+		3E1702F71D95501900343CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1702F61D95501900343CE8 /* ViewController.swift */; };
+		3E1702FA1D95501900343CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1702F81D95501900343CE8 /* Main.storyboard */; };
+		3E1702FC1D95501900343CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1702FB1D95501900343CE8 /* Assets.xcassets */; };
+		3E1702FF1D95501900343CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1702FD1D95501900343CE8 /* LaunchScreen.storyboard */; };
+		3E17030A1D95501900343CE8 /* KrestikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1703091D95501900343CE8 /* KrestikiTests.swift */; };
+		3E1703151D95501A00343CE8 /* KrestikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1703141D95501A00343CE8 /* KrestikiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E1703061D95501900343CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E1702E91D95501900343CE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E1702F01D95501900343CE8;
+			remoteInfo = Krestiki;
+		};
+		3E1703111D95501A00343CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E1702E91D95501900343CE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E1702F01D95501900343CE8;
+			remoteInfo = Krestiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E1702F11D95501900343CE8 /* Krestiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Krestiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1702F41D95501900343CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E1702F61D95501900343CE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E1702F91D95501900343CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E1702FB1D95501900343CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E1702FE1D95501900343CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E1703001D95501900343CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1703051D95501900343CE8 /* KrestikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrestikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1703091D95501900343CE8 /* KrestikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrestikiTests.swift; sourceTree = "<group>"; };
+		3E17030B1D95501A00343CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1703101D95501A00343CE8 /* KrestikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrestikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1703141D95501A00343CE8 /* KrestikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrestikiUITests.swift; sourceTree = "<group>"; };
+		3E1703161D95501A00343CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E1702EE1D95501900343CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1703021D95501900343CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E17030D1D95501A00343CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E1702E81D95501900343CE8 = {
+			isa = PBXGroup;
+			children = (
+				3E1702F31D95501900343CE8 /* Krestiki */,
+				3E1703081D95501900343CE8 /* KrestikiTests */,
+				3E1703131D95501A00343CE8 /* KrestikiUITests */,
+				3E1702F21D95501900343CE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E1702F21D95501900343CE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E1702F11D95501900343CE8 /* Krestiki.app */,
+				3E1703051D95501900343CE8 /* KrestikiTests.xctest */,
+				3E1703101D95501A00343CE8 /* KrestikiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E1702F31D95501900343CE8 /* Krestiki */ = {
+			isa = PBXGroup;
+			children = (
+				3E1702F41D95501900343CE8 /* AppDelegate.swift */,
+				3E1702F61D95501900343CE8 /* ViewController.swift */,
+				3E1702F81D95501900343CE8 /* Main.storyboard */,
+				3E1702FB1D95501900343CE8 /* Assets.xcassets */,
+				3E1702FD1D95501900343CE8 /* LaunchScreen.storyboard */,
+				3E1703001D95501900343CE8 /* Info.plist */,
+			);
+			path = Krestiki;
+			sourceTree = "<group>";
+		};
+		3E1703081D95501900343CE8 /* KrestikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E1703091D95501900343CE8 /* KrestikiTests.swift */,
+				3E17030B1D95501A00343CE8 /* Info.plist */,
+			);
+			path = KrestikiTests;
+			sourceTree = "<group>";
+		};
+		3E1703131D95501A00343CE8 /* KrestikiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E1703141D95501A00343CE8 /* KrestikiUITests.swift */,
+				3E1703161D95501A00343CE8 /* Info.plist */,
+			);
+			path = KrestikiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E1702F01D95501900343CE8 /* Krestiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1703191D95501A00343CE8 /* Build configuration list for PBXNativeTarget "Krestiki" */;
+			buildPhases = (
+				3E1702ED1D95501900343CE8 /* Sources */,
+				3E1702EE1D95501900343CE8 /* Frameworks */,
+				3E1702EF1D95501900343CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Krestiki;
+			productName = Krestiki;
+			productReference = 3E1702F11D95501900343CE8 /* Krestiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E1703041D95501900343CE8 /* KrestikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E17031C1D95501A00343CE8 /* Build configuration list for PBXNativeTarget "KrestikiTests" */;
+			buildPhases = (
+				3E1703011D95501900343CE8 /* Sources */,
+				3E1703021D95501900343CE8 /* Frameworks */,
+				3E1703031D95501900343CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E1703071D95501900343CE8 /* PBXTargetDependency */,
+			);
+			name = KrestikiTests;
+			productName = KrestikiTests;
+			productReference = 3E1703051D95501900343CE8 /* KrestikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E17030F1D95501A00343CE8 /* KrestikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E17031F1D95501A00343CE8 /* Build configuration list for PBXNativeTarget "KrestikiUITests" */;
+			buildPhases = (
+				3E17030C1D95501A00343CE8 /* Sources */,
+				3E17030D1D95501A00343CE8 /* Frameworks */,
+				3E17030E1D95501A00343CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E1703121D95501A00343CE8 /* PBXTargetDependency */,
+			);
+			name = KrestikiUITests;
+			productName = KrestikiUITests;
+			productReference = 3E1703101D95501A00343CE8 /* KrestikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E1702E91D95501900343CE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Misha Korchak";
+				TargetAttributes = {
+					3E1702F01D95501900343CE8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3E1703041D95501900343CE8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E1702F01D95501900343CE8;
+					};
+					3E17030F1D95501A00343CE8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E1702F01D95501900343CE8;
+					};
+				};
+			};
+			buildConfigurationList = 3E1702EC1D95501900343CE8 /* Build configuration list for PBXProject "Krestiki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E1702E81D95501900343CE8;
+			productRefGroup = 3E1702F21D95501900343CE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E1702F01D95501900343CE8 /* Krestiki */,
+				3E1703041D95501900343CE8 /* KrestikiTests */,
+				3E17030F1D95501A00343CE8 /* KrestikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E1702EF1D95501900343CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1702FF1D95501900343CE8 /* LaunchScreen.storyboard in Resources */,
+				3E1702FC1D95501900343CE8 /* Assets.xcassets in Resources */,
+				3E1702FA1D95501900343CE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1703031D95501900343CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E17030E1D95501A00343CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E1702ED1D95501900343CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1702F71D95501900343CE8 /* ViewController.swift in Sources */,
+				3E1702F51D95501900343CE8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1703011D95501900343CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E17030A1D95501900343CE8 /* KrestikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E17030C1D95501A00343CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1703151D95501A00343CE8 /* KrestikiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E1703071D95501900343CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E1702F01D95501900343CE8 /* Krestiki */;
+			targetProxy = 3E1703061D95501900343CE8 /* PBXContainerItemProxy */;
+		};
+		3E1703121D95501A00343CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E1702F01D95501900343CE8 /* Krestiki */;
+			targetProxy = 3E1703111D95501A00343CE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E1702F81D95501900343CE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E1702F91D95501900343CE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E1702FD1D95501900343CE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E1702FE1D95501900343CE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E1703171D95501A00343CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E1703181D95501A00343CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E17031A1D95501A00343CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Krestiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dv.Krestiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E17031B1D95501A00343CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Krestiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dv.Krestiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3E17031D1D95501A00343CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KrestikiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dv.KrestikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Krestiki.app/Krestiki";
+			};
+			name = Debug;
+		};
+		3E17031E1D95501A00343CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KrestikiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dv.KrestikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Krestiki.app/Krestiki";
+			};
+			name = Release;
+		};
+		3E1703201D95501A00343CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KrestikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dv.KrestikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Krestiki;
+			};
+			name = Debug;
+		};
+		3E1703211D95501A00343CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KrestikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dv.KrestikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Krestiki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E1702EC1D95501900343CE8 /* Build configuration list for PBXProject "Krestiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1703171D95501A00343CE8 /* Debug */,
+				3E1703181D95501A00343CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E1703191D95501A00343CE8 /* Build configuration list for PBXNativeTarget "Krestiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E17031A1D95501A00343CE8 /* Debug */,
+				3E17031B1D95501A00343CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E17031C1D95501A00343CE8 /* Build configuration list for PBXNativeTarget "KrestikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E17031D1D95501A00343CE8 /* Debug */,
+				3E17031E1D95501A00343CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E17031F1D95501A00343CE8 /* Build configuration list for PBXNativeTarget "KrestikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1703201D95501A00343CE8 /* Debug */,
+				3E1703211D95501A00343CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E1702E91D95501900343CE8 /* Project object */;
+}
