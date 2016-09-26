@@ -1,26 +1,327 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Krestiki" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bumaga_tekstura_kletki_svetlyy_55327_1920x1080.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LHG-3m-eor">
+                                <frame key="frameInset" minX="-689" width="1009" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="expences-button-png-hi.png" translatesAutoresizingMaskIntoConstraints="NO" id="9ZP-st-F6L">
+                                <frame key="frameInset" minX="63" minY="188" width="194" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTQ-iv-Uns">
+                                <frame key="frameInset" minX="78" minY="207" width="164" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="22"/>
+                                <state key="normal" title="Игрок vs Игрок ">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="G8j-vD-Su9" kind="show" id="KCY-Ab-pyl"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="expences-button-png-hi.png" translatesAutoresizingMaskIntoConstraints="NO" id="gYl-5b-a51">
+                                <frame key="frameInset" minX="63" minY="314" width="194" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sW-vd-bXD">
+                                <frame key="frameInset" minX="78" minY="332" width="164" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="22"/>
+                                <state key="normal" title="Игрок vs iPhone ">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="XKV-qs-JwZ" kind="show" id="h3y-Kx-vwb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Крестики - Нолики" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PoE-31-BQl">
+                                <frame key="frameInset" minX="8" minY="76" width="304" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="33"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="116.25" y="123.59154929577466"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="p4V-mw-qNk">
+            <objects>
+                <viewController id="G8j-vD-Su9" customClass="ViewController2" customModule="Krestiki" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RT0-Ba-x4V"/>
+                        <viewControllerLayoutGuide type="bottom" id="8pO-6r-oex"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IbS-7v-TWX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bumaga_tekstura_kletki_svetlyy_55327_1920x1080.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dnY-Z4-AB4">
+                                <frame key="frameInset" minX="-740" width="1060" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Поле.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zrz-cR-rbg">
+                                <frame key="frameInset" minX="-10" minY="87" width="330" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhe-mG-2LE">
+                                <frame key="frameInset" minX="1" minY="103" width="95" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap1:" destination="G8j-vD-Su9" eventType="touchUpInside" id="2gc-2L-I1l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRL-Rr-J70">
+                                <frame key="frameInset" minX="104" minY="105" width="115" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap2:" destination="G8j-vD-Su9" eventType="touchUpInside" id="XVz-o8-FRI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIF-Fj-tm0">
+                                <frame key="frameInset" minX="1" minY="202" width="95" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap4:" destination="G8j-vD-Su9" eventType="touchUpInside" id="FoX-hp-1Ue"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5AP-jQ-nca">
+                                <frame key="frameInset" minX="228" minY="199" width="88" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap6:" destination="G8j-vD-Su9" eventType="touchUpInside" id="pkP-O0-MUZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JI2-gR-lUw">
+                                <frame key="frameInset" minX="104" minY="199" width="111" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap5:" destination="G8j-vD-Su9" eventType="touchUpInside" id="uoK-dC-I9J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rbe-hS-HYg">
+                                <frame key="frameInset" minX="101" minY="315" width="121" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap8:" destination="G8j-vD-Su9" eventType="touchUpInside" id="ZVQ-Ot-4y7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ezy-Mi-3zP">
+                                <frame key="frameInset" minX="225" minY="108" width="95" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap3:" destination="G8j-vD-Su9" eventType="touchUpInside" id="IKm-VJ-Vlv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZI8-Cp-llC">
+                                <frame key="frameInset" minX="1" minY="323" width="95" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap7:" destination="G8j-vD-Su9" eventType="touchUpInside" id="ItT-wQ-a6s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zab-lX-47D">
+                                <frame key="frameInset" minX="228" minY="320" width="82" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap9:" destination="G8j-vD-Su9" eventType="touchUpInside" id="LQN-lg-7PC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="expences-button-png-hi.png" translatesAutoresizingMaskIntoConstraints="NO" id="s5U-cP-kOP">
+                                <frame key="frameInset" minX="64" minY="445" width="194" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTw-yj-gAz">
+                                <frame key="frameInset" minX="79" minY="463" width="164" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="22"/>
+                                <state key="normal" title="Назад">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="xYn-FP-UWA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="Tap1" destination="qhe-mG-2LE" id="Y1M-em-0uq"/>
+                        <outlet property="Tap2" destination="fRL-Rr-J70" id="TgO-Gv-PZV"/>
+                        <outlet property="Tap3" destination="Ezy-Mi-3zP" id="vqC-lC-dwC"/>
+                        <outlet property="Tap4" destination="kIF-Fj-tm0" id="y5G-nF-SeU"/>
+                        <outlet property="Tap5" destination="JI2-gR-lUw" id="JrF-Gu-BlC"/>
+                        <outlet property="Tap6" destination="5AP-jQ-nca" id="tC8-nO-PTE"/>
+                        <outlet property="Tap7" destination="ZI8-Cp-llC" id="FuB-W0-6ar"/>
+                        <outlet property="Tap8" destination="Rbe-hS-HYg" id="gyP-tl-mgy"/>
+                        <outlet property="Tap9" destination="Zab-lX-47D" id="tcs-7G-GUU"/>
+                        <outlet property="tap1" destination="qhe-mG-2LE" id="Vb1-y5-gr7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jtN-QA-44T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1268" y="-304"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="gYR-gP-CKs">
+            <objects>
+                <viewController id="XKV-qs-JwZ" customClass="ViewController3" customModule="Krestiki" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IM3-f6-vFF"/>
+                        <viewControllerLayoutGuide type="bottom" id="VMf-Ki-NBo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VKb-cw-UVa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bumaga_tekstura_kletki_svetlyy_55327_1920x1080.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MJt-nf-hNQ">
+                                <frame key="frameInset" minX="-711" width="1031" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Поле.png" translatesAutoresizingMaskIntoConstraints="NO" id="FBt-UJ-OGA">
+                                <frame key="frameInset" minX="-8" minY="87" width="330" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5VP-0J-Ynb">
+                                <frame key="frameInset" minX="7" minY="99" width="95" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap1:" destination="G8j-vD-Su9" eventType="touchUpInside" id="X5u-Zr-T5S"/>
+                                    <action selector="Tap1:" destination="XKV-qs-JwZ" eventType="touchUpInside" id="g0y-yF-xRX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOV-yX-ChH">
+                                <frame key="frameInset" minX="103" minY="99" width="121" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap2:" destination="XKV-qs-JwZ" eventType="touchUpInside" id="jzA-D6-tDc"/>
+                                    <action selector="Tap8:" destination="G8j-vD-Su9" eventType="touchUpInside" id="ydS-zo-KYB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36O-Wn-VuZ">
+                                <frame key="frameInset" minX="224" minY="107" width="95" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap3:" destination="G8j-vD-Su9" eventType="touchUpInside" id="ewd-xR-Bcg"/>
+                                    <action selector="Tap3:" destination="XKV-qs-JwZ" eventType="touchUpInside" id="xIP-la-CbC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aF5-g4-dvg">
+                                <frame key="frameInset" minX="-1" minY="198" width="95" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap4:" destination="G8j-vD-Su9" eventType="touchUpInside" id="eJ9-Lh-AkT"/>
+                                    <action selector="Tap4:" destination="XKV-qs-JwZ" eventType="touchUpInside" id="uwM-0p-OtA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmW-Ds-CBj">
+                                <frame key="frameInset" minX="108" minY="194" width="111" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap5:" destination="G8j-vD-Su9" eventType="touchUpInside" id="Zyv-a7-SeP"/>
+                                    <action selector="Tap5:" destination="XKV-qs-JwZ" eventType="touchUpInside" id="x7I-7c-XMH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCF-bb-lTx">
+                                <frame key="frameInset" minX="234" minY="198" width="88" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap6:" destination="XKV-qs-JwZ" eventType="touchUpInside" id="Km9-7V-BpL"/>
+                                    <action selector="Tap6:" destination="G8j-vD-Su9" eventType="touchUpInside" id="tk5-DB-5pE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oos-Mf-g8w">
+                                <frame key="frameInset" minX="-1" minY="322" width="95" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap7:" destination="XKV-qs-JwZ" eventType="touchUpInside" id="Eh8-02-YTa"/>
+                                    <action selector="Tap7:" destination="G8j-vD-Su9" eventType="touchUpInside" id="fCG-vx-xJe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jUo-K2-Apf">
+                                <frame key="frameInset" minX="109" minY="322" width="115" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap2:" destination="G8j-vD-Su9" eventType="touchUpInside" id="srE-jC-RZA"/>
+                                    <action selector="Tap8:" destination="XKV-qs-JwZ" eventType="touchUpInside" id="bmo-gq-2GE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWr-mS-O2p">
+                                <frame key="frameInset" minX="237" minY="318" width="82" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Tap9:" destination="XKV-qs-JwZ" eventType="touchUpInside" id="Y0l-am-o2D"/>
+                                    <action selector="Tap9:" destination="G8j-vD-Su9" eventType="touchUpInside" id="Ykz-LK-h9H"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="expences-button-png-hi.png" translatesAutoresizingMaskIntoConstraints="NO" id="XTH-Ti-qoh">
+                                <frame key="frameInset" minX="63" minY="446" width="194" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERy-Nm-8iM">
+                                <frame key="frameInset" minX="77" minY="464" width="164" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="22"/>
+                                <state key="normal" title="Назад">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="1U1-I7-7yc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="Tap1" destination="5VP-0J-Ynb" id="mOn-zT-ziE"/>
+                        <outlet property="Tap2" destination="iOV-yX-ChH" id="lp1-fe-TPH"/>
+                        <outlet property="Tap3" destination="36O-Wn-VuZ" id="rHl-r8-GRk"/>
+                        <outlet property="Tap4" destination="aF5-g4-dvg" id="73N-bp-eVV"/>
+                        <outlet property="Tap5" destination="rmW-Ds-CBj" id="wJF-r3-L1C"/>
+                        <outlet property="Tap6" destination="HCF-bb-lTx" id="aX9-4V-yhI"/>
+                        <outlet property="Tap7" destination="oos-Mf-g8w" id="Dit-uM-fxo"/>
+                        <outlet property="Tap8" destination="jUo-K2-Apf" id="YlP-Vk-OXy"/>
+                        <outlet property="Tap9" destination="zWr-mS-O2p" id="b2e-1S-EuQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zD6-C6-ehc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1268" y="498"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bumaga_tekstura_kletki_svetlyy_55327_1920x1080.jpg" width="1920" height="1080"/>
+        <image name="expences-button-png-hi.png" width="600" height="200"/>
+        <image name="Поле.png" width="745" height="745"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="1U1-I7-7yc"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -14,6 +14,22 @@
 		3E1702FF1D95501900343CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1702FD1D95501900343CE8 /* LaunchScreen.storyboard */; };
 		3E17030A1D95501900343CE8 /* KrestikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1703091D95501900343CE8 /* KrestikiTests.swift */; };
 		3E1703151D95501A00343CE8 /* KrestikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1703141D95501A00343CE8 /* KrestikiUITests.swift */; };
+		3E1703271D957F9100343CE8 /* Поле.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E1703241D957F9100343CE8 /* Поле.png */; };
+		3E17032D1D95812500343CE8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E17032C1D95812500343CE8 /* ViewController2.swift */; };
+		3E1703301D958BCA00343CE8 /* krestic.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E17032E1D958BCA00343CE8 /* krestic.png */; };
+		3E1703311D958BCA00343CE8 /* nolik.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E17032F1D958BCA00343CE8 /* nolik.png */; };
+		3E977B7C1D96E356001115BD /* bumaga_tekstura_kletki_svetlyy_55327_1920x1080.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E977B7B1D96E356001115BD /* bumaga_tekstura_kletki_svetlyy_55327_1920x1080.jpg */; };
+		3E977B7E1D96E660001115BD /* expences-button-png-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E977B7D1D96E660001115BD /* expences-button-png-hi.png */; };
+		3E977B9C1D9748A4001115BD /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E977B951D9748A4001115BD /* icon40.png */; };
+		3E977B9D1D9748A4001115BD /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E977B961D9748A4001115BD /* icon58.png */; };
+		3E977B9E1D9748A4001115BD /* icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E977B971D9748A4001115BD /* icon60.png */; };
+		3E977B9F1D9748A4001115BD /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E977B981D9748A4001115BD /* icon80.png */; };
+		3E977BA01D9748A4001115BD /* icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E977B991D9748A4001115BD /* icon87.png */; };
+		3E977BA11D9748A4001115BD /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E977B9A1D9748A4001115BD /* icon120.png */; };
+		3E977BA21D9748A4001115BD /* icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E977B9B1D9748A4001115BD /* icon180.png */; };
+		3E977BA41D97E515001115BD /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E977BA31D97E515001115BD /* ViewController3.swift */; };
+		3E977BA71D9927CE001115BD /* pers2go1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E977BA51D9927CE001115BD /* pers2go1.mp3 */; };
+		3E977BA81D9927CE001115BD /* pers2go2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3E977BA61D9927CE001115BD /* pers2go2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +63,22 @@
 		3E1703101D95501A00343CE8 /* KrestikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrestikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1703141D95501A00343CE8 /* KrestikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrestikiUITests.swift; sourceTree = "<group>"; };
 		3E1703161D95501A00343CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1703241D957F9100343CE8 /* Поле.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Поле.png"; path = "../../../Desktop/Поле.png"; sourceTree = "<group>"; };
+		3E17032C1D95812500343CE8 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		3E17032E1D958BCA00343CE8 /* krestic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = krestic.png; path = ../../../Desktop/krestic.png; sourceTree = "<group>"; };
+		3E17032F1D958BCA00343CE8 /* nolik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nolik.png; path = ../../../Desktop/nolik.png; sourceTree = "<group>"; };
+		3E977B7B1D96E356001115BD /* bumaga_tekstura_kletki_svetlyy_55327_1920x1080.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bumaga_tekstura_kletki_svetlyy_55327_1920x1080.jpg; path = ../../../Desktop/bumaga_tekstura_kletki_svetlyy_55327_1920x1080.jpg; sourceTree = "<group>"; };
+		3E977B7D1D96E660001115BD /* expences-button-png-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expences-button-png-hi.png"; sourceTree = "<group>"; };
+		3E977B951D9748A4001115BD /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon40.png; sourceTree = "<group>"; };
+		3E977B961D9748A4001115BD /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		3E977B971D9748A4001115BD /* icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon60.png; sourceTree = "<group>"; };
+		3E977B981D9748A4001115BD /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		3E977B991D9748A4001115BD /* icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon87.png; sourceTree = "<group>"; };
+		3E977B9A1D9748A4001115BD /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		3E977B9B1D9748A4001115BD /* icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon180.png; sourceTree = "<group>"; };
+		3E977BA31D97E515001115BD /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController3.swift; sourceTree = "<group>"; usesTabs = 0; };
+		3E977BA51D9927CE001115BD /* pers2go1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pers2go1.mp3; sourceTree = "<group>"; };
+		3E977BA61D9927CE001115BD /* pers2go2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pers2go2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +131,26 @@
 			children = (
 				3E1702F41D95501900343CE8 /* AppDelegate.swift */,
 				3E1702F61D95501900343CE8 /* ViewController.swift */,
+				3E17032C1D95812500343CE8 /* ViewController2.swift */,
+				3E977BA31D97E515001115BD /* ViewController3.swift */,
 				3E1702F81D95501900343CE8 /* Main.storyboard */,
 				3E1702FB1D95501900343CE8 /* Assets.xcassets */,
 				3E1702FD1D95501900343CE8 /* LaunchScreen.storyboard */,
 				3E1703001D95501900343CE8 /* Info.plist */,
+				3E1703241D957F9100343CE8 /* Поле.png */,
+				3E17032E1D958BCA00343CE8 /* krestic.png */,
+				3E977B7D1D96E660001115BD /* expences-button-png-hi.png */,
+				3E17032F1D958BCA00343CE8 /* nolik.png */,
+				3E977B7B1D96E356001115BD /* bumaga_tekstura_kletki_svetlyy_55327_1920x1080.jpg */,
+				3E977B951D9748A4001115BD /* icon40.png */,
+				3E977B961D9748A4001115BD /* icon58.png */,
+				3E977B971D9748A4001115BD /* icon60.png */,
+				3E977B981D9748A4001115BD /* icon80.png */,
+				3E977B991D9748A4001115BD /* icon87.png */,
+				3E977B9A1D9748A4001115BD /* icon120.png */,
+				3E977B9B1D9748A4001115BD /* icon180.png */,
+				3E977BA51D9927CE001115BD /* pers2go1.mp3 */,
+				3E977BA61D9927CE001115BD /* pers2go2.mp3 */,
 			);
 			path = Krestiki;
 			sourceTree = "<group>";
@@ -193,6 +241,7 @@
 				TargetAttributes = {
 					3E1702F01D95501900343CE8 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J9JZVXE246;
 						ProvisioningStyle = Automatic;
 					};
 					3E1703041D95501900343CE8 = {
@@ -232,9 +281,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1703301D958BCA00343CE8 /* krestic.png in Resources */,
+				3E977B7E1D96E660001115BD /* expences-button-png-hi.png in Resources */,
+				3E977B9F1D9748A4001115BD /* icon80.png in Resources */,
+				3E1703271D957F9100343CE8 /* Поле.png in Resources */,
 				3E1702FF1D95501900343CE8 /* LaunchScreen.storyboard in Resources */,
+				3E977B9C1D9748A4001115BD /* icon40.png in Resources */,
+				3E977B7C1D96E356001115BD /* bumaga_tekstura_kletki_svetlyy_55327_1920x1080.jpg in Resources */,
+				3E1703311D958BCA00343CE8 /* nolik.png in Resources */,
+				3E977B9E1D9748A4001115BD /* icon60.png in Resources */,
 				3E1702FC1D95501900343CE8 /* Assets.xcassets in Resources */,
+				3E977BA81D9927CE001115BD /* pers2go2.mp3 in Resources */,
+				3E977BA11D9748A4001115BD /* icon120.png in Resources */,
+				3E977BA01D9748A4001115BD /* icon87.png in Resources */,
 				3E1702FA1D95501900343CE8 /* Main.storyboard in Resources */,
+				3E977BA71D9927CE001115BD /* pers2go1.mp3 in Resources */,
+				3E977B9D1D9748A4001115BD /* icon58.png in Resources */,
+				3E977BA21D9748A4001115BD /* icon180.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +324,8 @@
 			files = (
 				3E1702F71D95501900343CE8 /* ViewController.swift in Sources */,
 				3E1702F51D95501900343CE8 /* AppDelegate.swift in Sources */,
+				3E977BA41D97E515001115BD /* ViewController3.swift in Sources */,
+				3E17032D1D95812500343CE8 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9JZVXE246;
 				INFOPLIST_FILE = Krestiki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dv.Krestiki;
@@ -424,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9JZVXE246;
 				INFOPLIST_FILE = Krestiki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dv.Krestiki;
@@ -505,6 +572,7 @@
 				3E17031B1D95501A00343CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E17031C1D95501A00343CE8 /* Build configuration list for PBXNativeTarget "KrestikiTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +581,7 @@
 				3E17031E1D95501A00343CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E17031F1D95501A00343CE8 /* Build configuration list for PBXNativeTarget "KrestikiUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +590,7 @@
 				3E1703211D95501A00343CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
