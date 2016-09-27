@@ -28,6 +28,7 @@ class ViewController3: UIViewController {
     var y: [Int] = [100, 100, 100, 215, 215, 215, 330, 330, 330]
     
     var win: [Int] = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    var flag = false
     
     @IBOutlet weak var Tap1: UIButton!
     @IBAction func Tap1(_ sender: UIButton) {
@@ -180,6 +181,47 @@ class ViewController3: UIViewController {
             }
             if (nolik_win == false) {
                 test_krestic()
+                if (flag == false && win[5] == 0) {
+                    win[5] = 2
+                    flag = true
+                    nolik = 5
+                }
+                if (flag == false && win[1] == 0) {
+                    win[1] = 2
+                    flag = true
+                    nolik = 1
+                }
+                if (flag == false && win[3] == 0) {
+                    win[3] = 2
+                    flag = true
+                    nolik = 3
+                }
+                if (flag == false && win[7] == 0) {
+                    win[7] = 2
+                    flag = true
+                    nolik = 7
+                }
+                if (flag == false && win[0] == 0) {
+                    win[0] = 2
+                    flag = true
+                    nolik = 0
+                }
+                if (flag == false && win[2] == 0) {
+                    win[2] = 2
+                    flag = true
+                    nolik = 2
+                }
+                if (flag == false && win[6] == 0) {
+                    win[6] = 2
+                    flag = true
+                    nolik = 6
+                }
+                if (flag == false && win[8] == 0) {
+                    win[8] = 2
+                    flag = true
+                    nolik = 8
+                }
+
             }
             hod += 1
         }
@@ -191,6 +233,7 @@ class ViewController3: UIViewController {
         self.nolik_v[self.nolik].frame.origin.y = CGFloat(self.y[self.nolik])
         })
         view.addSubview(nolik_v[nolik])
+        flag = false
         
     }
     
@@ -313,18 +356,21 @@ class ViewController3: UIViewController {
                     if (win[index + 2] == 0) {
                         win[index + 2] = 2
                         nolik = index + 2
+                        flag = true
                     }
                 }
                 if (win[index + 2] == win[index] && win[index] == 1) {
                     if (win[index + 1] == 0) {
                         win[index + 1] = 2
                         nolik = index + 1
+                        flag = true
                     }
                 }
                 if (win[index + 2] == win[index + 1] && win[index + 1] == 1) {
                     if (win[index] == 0) {
                         win[index] = 2
                         nolik = index
+                        flag = true
                     }
                 }
                 if (index == 0) {
@@ -332,18 +378,21 @@ class ViewController3: UIViewController {
                         if (win[index + 8] == 0) {
                             win[index + 8] = 2
                             nolik = index + 8
+                            flag = true
                         }
                     }
                     if (win[index + 8] == win[index] && win[index] == 1) {
                         if (win[index + 4] == 0) {
                             win[index + 4] = 2
                             nolik = index + 4
+                            flag = true
                         }
                     }
                     if (win[index + 8] == win[index + 4] && win[index + 4] == 1) {
                         if (win[index] == 0) {
                             win[index] = 2
                             nolik = index
+                            flag = true
                         }
                     }
                 }
@@ -353,18 +402,21 @@ class ViewController3: UIViewController {
                     if (win[index + 6] == 0) {
                         win[index + 6] = 2
                         nolik = index + 6
+                        flag = true
                     }
                 }
                 if (win[index + 6] == win[index] && win[index] == 1) {
                     if (win[index + 3] == 0) {
                         win[index + 3] = 2
                         nolik = index + 3
+                        flag = true
                     }
                 }
                 if (win[index + 6] == win[index + 3] && win[index + 3] == 1) {
                     if (win[index] == 0) {
                         win[index] = 2
                         nolik = index
+                        flag = true
                     }
                 }
                 if (index == 2) {
@@ -372,18 +424,21 @@ class ViewController3: UIViewController {
                         if (win[index + 4] == 0) {
                             win[index + 4] = 2
                             nolik = index + 4
+                            flag = true
                         }
                     }
                     if (win[index + 4] == win[index] && win[index] == 1) {
                         if (win[index + 2] == 0) {
                             win[index + 2] = 2
                             nolik = index + 2
+                            flag = true
                         }
                     }
                     if (win[index + 4] == win[index + 2] && win[index + 2] == 1) {
                         if (win[index] == 0) {
                             win[index] = 2
                             nolik = index
+                            flag = true
                         }
                     }
                 }
@@ -450,6 +505,7 @@ class ViewController3: UIViewController {
         }
         krestic = 0
         nolik = 0
+        flag = false
         Tap1.isEnabled = true
         Tap2.isEnabled = true
         Tap3.isEnabled = true
